@@ -10,6 +10,6 @@ int main(int argc, char *argv[]){
     ip[1] = atoi(strtok(NULL, "."));
     ip[2] = atoi(strtok(NULL, "."));
     ip[3] = atoi(strtok(NULL, "."));
-    printf("ip%d.mobgslb.tbcache.com\n", *(int *)ip);
+    printf("ip%u.mobgslb.tbcache.com\n", *(unsigned int *)ip);
     return 0;
 }
